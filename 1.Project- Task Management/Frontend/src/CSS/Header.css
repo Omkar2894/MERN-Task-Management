@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: orangered;
+}
+.navbar_bg{
+    background-color: #54a1ff70;
+    
+}
+.brand_name{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+
+
+@media screen and (max-width:400px){
+    .brand_name{
+        font-size: 20px;
+        letter-spacing: 0px;
+    }   
+    .logout_icon .logout{
+        width: 60px;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 3px !important;
+        margin: 3px !important;
+    }
+}
